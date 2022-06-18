@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "repository": "git@github.com:vcellu/CarbonTemplate.git",
   "author": "Vittorio Cellucci <vel@qlik.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "create-carbon-copy": "bin/index.sh"
+  }
 }
