@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/qlik-oss/carboncopy/compare/v1.0.1...v1.0.2) (2022-06-19)
+
+
+### Bug Fixes
+
+* clean up exports in template ([6c03160](https://github.com/qlik-oss/carboncopy/commit/6c0316033d7bcc876c8db25235567f17a917a9ba))
+
 ## [1.0.1](https://github.com/qlik-oss/carboncopy/compare/v1.0.0...v1.0.1) (2022-06-19)
 
 
