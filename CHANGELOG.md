@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/qlik-oss/carboncopy/compare/v1.0.2...v1.0.3) (2022-06-19)
+
+
+### Bug Fixes
+
+* rename placeholder ([df08728](https://github.com/qlik-oss/carboncopy/commit/df08728e8e16ef4b64467b2f2d6f8ab284f5c964))
+
 ## [1.0.2](https://github.com/qlik-oss/carboncopy/compare/v1.0.1...v1.0.2) (2022-06-19)
 
 
