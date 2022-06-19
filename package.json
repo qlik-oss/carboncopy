@@ -13,5 +13,9 @@
   },
   "scripts": {
     "ci:install": "yarn install --frozen-lockfile"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   }
 }
