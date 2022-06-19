@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/qlik-oss/carboncopy/compare/v1.0.0...v1.0.1) (2022-06-19)
+
+
+### Bug Fixes
+
+* publish to npm ([8e4b487](https://github.com/qlik-oss/carboncopy/commit/8e4b487a7c782e1e4f0e4f5b2b387ab5dbf4dd78))
+
 # 1.0.0 (2022-06-19)
 
 
