@@ -48,4 +48,3 @@ export const loadableStoredConnectionListAtom = loadable(
 export const selectedConnectionAtom = atom<ConnectionConfig | undefined>(
   undefined,
 );
-
