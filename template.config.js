@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: 'CarbonTemplate',
+  placeholderName: 'carbontemplate',
   templateDir: './template',
 }

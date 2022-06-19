@@ -6,6 +6,7 @@ import {
   connectionListAtom,
   loadableConnectionListAtom,
   loadableStoredConnectionListAtom,
+  storedConnectionListAtom,
 } from './connectionAtom';
 
 import {selectedAppAtom, loadableOpenAppAtom, loadableVizList} from './appAtom';
@@ -36,4 +37,5 @@ export {
   selectedAppAtom,
   loadableOpenAppAtom,
   loadableVizList,
+  storedConnectionListAtom,
 };

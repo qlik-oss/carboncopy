@@ -1,8 +1,9 @@
 import React from 'react';
 import {Button, Card, Subheading, Title} from 'react-native-paper';
-import {ConnectionConfig, selectedConnectionAtom, storedConnectionListAtom} from '../atoms';
+import {selectedConnectionAtom, storedConnectionListAtom} from '../atoms';
+import {ConnectionConfig} from '../atoms/connectionAtom';
 import {useUpdateAtom} from 'jotai/utils';
-import { useNavigation } from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 
 export type ConnectionCardProps = {
   connection: ConnectionConfig;
@@ -24,7 +25,7 @@ const ConnectionCard: React.FC<ConnectionCardProps> = ({connection, index}) => {
 
   const openConnection = () => {
     selectConnection(connection);
-    navigation.push("AppList");
+    navigation.push('AppList');
   };
 
   return (

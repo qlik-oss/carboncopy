@@ -24,7 +24,6 @@ export const selectedAppAtom = atomWithReset<SelectedAppAtom | undefined>(
   undefined,
 );
 
-
 const openAppAtom = atom(async get => {
   const selectedConnection = get(selectedConnectionAtom);
   const selectedApp = get(selectedAppAtom);
