@@ -6,6 +6,6 @@ A react-native template project to create supernovas in react-native
 * A QCS account with an API Key
 
 ## Usage
-1. `npx react-native init MyApp --template https://github.com/qlik-oss/carboncopy`
-2. `cd MyApp`
+1. `npx @qlik/carboncopy <MyAppName>`
+2. `cd <MyAppName>`
 3. `run ios`
