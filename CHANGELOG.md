@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/qlik-oss/carboncopy/compare/v1.0.3...v1.0.4) (2022-06-19)
+
+
+### Bug Fixes
+
+* move visualization ([bb7c14a](https://github.com/qlik-oss/carboncopy/commit/bb7c14a594b940fad5d6ebf40bd97f07e74b1227))
+
 ## [1.0.3](https://github.com/qlik-oss/carboncopy/compare/v1.0.2...v1.0.3) (2022-06-19)
 
 
