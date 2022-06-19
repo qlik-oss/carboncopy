@@ -1,7 +1,7 @@
 {
   "name": "@qlik/carboncopy",
   "version": "1.0.0",
-  "repository": "git@github.com:vcellu/CarbonTemplate.git",
+  "repository": "https://github.com/qlik-oss/carboncopy.git",
   "author": "Vittorio Cellucci <vel@qlik.com>",
   "license": "MIT",
   "bin": {
