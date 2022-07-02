@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/qlik-oss/carboncopy/compare/v1.0.5...v1.0.6) (2022-07-02)
+
+
+### Bug Fixes
+
+* json syntax ([37140fd](https://github.com/qlik-oss/carboncopy/commit/37140fdf488ebe68865da186ffe76b1d5b607a21))
+
 ## [1.0.5](https://github.com/qlik-oss/carboncopy/compare/v1.0.4...v1.0.5) (2022-07-02)
 
 
