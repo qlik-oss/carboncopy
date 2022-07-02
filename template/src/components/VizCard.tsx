@@ -1,6 +1,5 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
-// import your SN here
 import {List} from 'react-native-paper';
 import {currentModelAtom} from '../atoms';
 import {useNavigation} from '@react-navigation/native';

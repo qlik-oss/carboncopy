@@ -7,6 +7,6 @@ A react-native template project to create supernovas in react-native
 * VSCode highly recommended with react native extension installed
 
 ## Usage
-1. `npx @qlik/carboncopy <MyAppName>`
+1. `npx @qlik/carboncopy <MyAppName> <viztype> <pathToDevSN>`
 2.  Open <MyAppName>/package.json and change the name to your app
 3.  Open the the folder in VSCode

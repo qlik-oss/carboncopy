@@ -1,6 +1,8 @@
 import {atom} from 'jotai';
 import {atomWithReset, loadable} from 'jotai/utils';
 import {selectedConnectionAtom} from './connectionAtom';
+// import config from '../../config.json';
+import SnConfig from '../../config.json';
 
 const schema = require('enigma.js/schemas/12.612.0.json');
 const enigma = require('enigma.js');
@@ -58,12 +60,11 @@ const openAppAtom = atom(async get => {
 });
 
 const vizList = atom(async get => {
-  const connection = get(selectedConnectionAtom);
   const session = get(openAppAtom);
   if (session?.app) {
     const objects = await session.app.getObjects({
       qData: {},
-      qTypes: [connection?.vizType],
+      qTypes: [SnConfig.snType],
     });
     const pendingModels = objects.map((o: any) =>
       session.app.getObject(o.qInfo.qId),

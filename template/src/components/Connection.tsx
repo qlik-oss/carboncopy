@@ -3,23 +3,22 @@ import React, {useCallback, useState} from 'react';
 import {StyleSheet} from 'react-native';
 import {Button, TextInput} from 'react-native-paper';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {ConnectionConfig, storedConnectionListAtom} from '../atoms';
+import {storedConnectionListAtom} from '../atoms';
+import {ConnectionConfig} from '../atoms/connectionAtom';
 
 const Connection = () => {
   const addConnection = useUpdateAtom(storedConnectionListAtom);
   const [tenant, setTenant] = useState('');
   const [apiKey, setApiKey] = useState('');
-  const [vizType, setVizType] = useState('');
 
   const onChangeTenant = useCallback((val: string) => setTenant(val), []);
   const onChangeApiKey = useCallback((val: string) => setApiKey(val), []);
-  const onChangeVizType = useCallback((val: string) => setVizType(val), []);
 
   const onSave = useCallback(() => {
     addConnection((prv: Array<ConnectionConfig>) => {
-      return [...prv, {tenant, apiKey, vizType}];
+      return [...prv, {tenant, apiKey}];
     });
-  }, [addConnection, apiKey, tenant, vizType]);
+  }, [addConnection, apiKey, tenant]);
 
   return (
     <SafeAreaView style={styles.body} edges={['left', 'bottom', 'right']}>
@@ -35,13 +34,6 @@ const Connection = () => {
         placeholder="Paste your key here"
         value={apiKey}
         onChangeText={onChangeApiKey}
-        autoCapitalize="none"
-      />
-      <TextInput
-        label="Visualization Type"
-        placeholder="kpi, treemap, table"
-        value={vizType}
-        onChangeText={onChangeVizType}
         autoCapitalize="none"
       />
       <Button onPress={onSave} uppercase={false}>

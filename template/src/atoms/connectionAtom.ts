@@ -7,7 +7,6 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 export type ConnectionConfig = {
   tenant: string;
   apiKey: string;
-  vizType: string;
 };
 
 export const connectionListAtom = atom<Array<ConnectionConfig>>([]);
