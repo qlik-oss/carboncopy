@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/qlik-oss/carboncopy/compare/v1.0.6...v1.0.7) (2022-07-04)
+
+
+### Bug Fixes
+
+* add import statement ([b67b015](https://github.com/qlik-oss/carboncopy/commit/b67b0158b1f2c1707543ee6b834463df7bf1f754))
+
 ## [1.0.6](https://github.com/qlik-oss/carboncopy/compare/v1.0.5...v1.0.6) (2022-07-02)
 
 
