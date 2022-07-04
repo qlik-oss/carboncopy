@@ -14,6 +14,7 @@
     "@qlik/carbon-core": "2.0.0-alpha.3",
     "@qlik/react-native-carbon": "2.0.0-alpha.18",
     "@qlik/react-native-helium": "^1.1.0-alpha.14",
+    "@qlik-oss/react-native-simple-grid": "1.0.11",
     "@qlik/sn-treemap": "1.0.0-alpha.12",
     "@react-native-async-storage/async-storage": "^1.17.6",
     "@react-navigation/drawer": "^6.4.1",
