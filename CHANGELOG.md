@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/qlik-oss/carboncopy/compare/v1.0.7...v1.0.8) (2022-07-04)
+
+
+### Bug Fixes
+
+* package.json dep ([8b5ad1a](https://github.com/qlik-oss/carboncopy/commit/8b5ad1a92a67646b7fd1e5cc02980d9847fa475c))
+
 ## [1.0.7](https://github.com/qlik-oss/carboncopy/compare/v1.0.6...v1.0.7) (2022-07-04)
 
 
