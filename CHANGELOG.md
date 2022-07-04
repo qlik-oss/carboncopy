@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/qlik-oss/carboncopy/compare/v1.0.8...v1.0.9) (2022-07-04)
+
+
+### Bug Fixes
+
+* add source exts ([007d1ec](https://github.com/qlik-oss/carboncopy/commit/007d1ec1814a157c6083154e440dda61b320590a))
+
 ## [1.0.8](https://github.com/qlik-oss/carboncopy/compare/v1.0.7...v1.0.8) (2022-07-04)
 
 
