@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/qlik-oss/carboncopy/compare/v1.0.11...v1.0.12) (2022-10-17)
+
+
+### Bug Fixes
+
+* add react-native-simple-grid ([b29ee75](https://github.com/qlik-oss/carboncopy/commit/b29ee75e767ac54a852355bf03eb1fe572fe6481))
+
 ## [1.0.11](https://github.com/qlik-oss/carboncopy/compare/v1.0.10...v1.0.11) (2022-09-09)
 
 
