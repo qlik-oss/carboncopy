@@ -16,6 +16,7 @@ import {getHeaderTitle} from '@react-navigation/elements';
 import ConnectionsList from './src/components/ConnectionsList';
 import AppList from './src/components/AppList';
 import VizList from './src/components/VizList';
+import ExpandedTableCellView from './src/components/ExpandedTableCellView';
 import {Appbar} from 'react-native-paper';
 import {useAtomValue} from 'jotai';
 import {loadableOpenAppAtom} from './src/atoms';
@@ -112,15 +113,25 @@ const App = () => {
             },
           }}
         />
+        <Stack.Screen
+          name="ExpandedTableCell"
+          component={ExpandedTableCellView}
+        />
       </Stack.Navigator>
       <SelectionsToolbar
         visible={supernovaState.active}
         position={supernovaState.position}
+        properties={supernovaState.properties}
         onConfirm={onConfirm}
         onCancel={onCancel}
         onClear={onClearSelections}
         onToggledLasso={handleToggledLasso}
-        icons={{confirm: 'check', cancel: 'close', clear: 'selection-off'}}
+        icons={{
+          confirm: 'check',
+          cancel: 'close',
+          clear: 'selection-off',
+          lasso: undefined,
+        }}
       />
     </NavigationContainer>
   );

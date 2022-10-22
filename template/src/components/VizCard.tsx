@@ -18,7 +18,14 @@ const VizCard: React.FC<VizCardProps> = ({model}) => {
     const getProps = async () => {
       try {
         const props = await model.getEffectiveProperties();
-        setEffectiveProperties(props);
+     
+        let title = props.title;
+        title = title.qStringExpression ? title.qStringExpression.qExpr : title;
+        console.log('title', title)
+        setEffectiveProperties({
+          title,
+          description: props?.qInfo?.qId,
+        });
       } catch (error) {}
     };
     getProps();
@@ -33,7 +40,7 @@ const VizCard: React.FC<VizCardProps> = ({model}) => {
     <List.Item
       style={styles.body}
       title={effectiveProperties?.title}
-      description={effectiveProperties?.qInfo.qId}
+      description={effectiveProperties?.description}
       right={(props: any) => <List.Icon {...props} icon="chevron-right" />}
       onPress={onPress}
     />
