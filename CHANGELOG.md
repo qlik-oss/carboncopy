@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/qlik-oss/carboncopy/compare/v1.1.1...v1.1.2) (2022-10-24)
+
+
+### Bug Fixes
+
+* update line number ([56ecb29](https://github.com/qlik-oss/carboncopy/commit/56ecb295952cbc6cd6131910dd4ff4a5eabd0e66))
+
 ## [1.1.1](https://github.com/qlik-oss/carboncopy/compare/v1.1.0...v1.1.1) (2022-10-24)
 
 
