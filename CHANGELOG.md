@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/qlik-oss/carboncopy/compare/v1.0.13...v1.1.0) (2022-10-24)
+
+
+### Bug Fixes
+
+* upgrade react-native-simple-grid ([170bb79](https://github.com/qlik-oss/carboncopy/commit/170bb79ced04d0bc5ed569224e78250f96810ba0))
+
+
+### Features
+
+* support expanded cell view ([288752e](https://github.com/qlik-oss/carboncopy/commit/288752e52f4fa6de4c92a094f1257c01e894807b))
+
 ## [1.0.13](https://github.com/qlik-oss/carboncopy/compare/v1.0.12...v1.0.13) (2022-10-17)
 
 
