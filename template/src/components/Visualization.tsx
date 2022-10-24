@@ -5,7 +5,6 @@ import theme from './theme.json';
 import {useAtomValue} from 'jotai';
 import {currentModelAtom, loadableOpenAppAtom} from '../atoms';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import supernova from '@nebula.js/react-native-sn-table';
 import {expandCellAtom} from '@qlik/react-native-simple-grid/src/atoms';
 import {useNavigation} from '@react-navigation/native';
 

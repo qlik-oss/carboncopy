@@ -10,7 +10,7 @@ function insertImport() {
   const data = fs.readFileSync(filePath).toString().split("\n");
   data.splice(7, 0, `import supernova from '${args[2]}';`);
   if(args.length === 4) {
-    data.splice(21, 0, "jsxComponent={true}");
+    data.splice(32, 0, "jsxComponent={true}");
   }
   const  text = data.join("\n");
   fs.writeFileSync(filePath, text, {encoding: 'utf-8'});
