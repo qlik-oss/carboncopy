@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/qlik-oss/carboncopy/compare/v1.1.2...v1.1.3) (2022-10-27)
+
+
+### Bug Fixes
+
+* update icons for android ([d6fc052](https://github.com/qlik-oss/carboncopy/commit/d6fc05299da1129f6c9acf86ce50a7b9e6a4b438))
+
 ## [1.1.2](https://github.com/qlik-oss/carboncopy/compare/v1.1.1...v1.1.2) (2022-10-24)
 
 
