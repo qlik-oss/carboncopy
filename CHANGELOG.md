@@ -1,3 +1,11 @@
+## [1.1.4](https://github.com/qlik-oss/carboncopy/compare/v1.1.3...v1.1.4) (2022-10-31)
+
+
+### Bug Fixes
+
+* add icons ([7713d3f](https://github.com/qlik-oss/carboncopy/commit/7713d3f9b2edf6e53d4f2f7d46227848f1c5e8ab))
+* remove duplicate fonts ([51b99ea](https://github.com/qlik-oss/carboncopy/commit/51b99ea95e7e8fe748324e70e99fb63dc6847d8d))
+
 ## [1.1.3](https://github.com/qlik-oss/carboncopy/compare/v1.1.2...v1.1.3) (2022-10-27)
 
 
