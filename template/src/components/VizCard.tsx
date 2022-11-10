@@ -18,10 +18,8 @@ const VizCard: React.FC<VizCardProps> = ({model}) => {
     const getProps = async () => {
       try {
         const props = await model.getEffectiveProperties();
-     
         let title = props.title;
         title = title.qStringExpression ? title.qStringExpression.qExpr : title;
-        console.log('title', title)
         setEffectiveProperties({
           title,
           description: props?.qInfo?.qId,

@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React, {useCallback} from 'react';
+import React, {useCallback, useEffect} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import Canvas from './src/components/Canvas';
 import Connection from './src/components/Connection';
@@ -26,11 +26,13 @@ import {
   supernovaToolTipStateAtom,
 } from '@qlik/react-native-carbon/src/carbonAtoms';
 import {useResetAtom} from 'jotai/utils';
+import {useWindowDimensions} from 'react-native';
 
 const Stack = createNativeStackNavigator();
 
 const App = () => {
   const openedApp = useAtomValue(loadableOpenAppAtom);
+  const dims = useWindowDimensions();
 
   const handleClear = useCallback(() => {
     if (openedApp.data.app) {
@@ -70,6 +72,10 @@ const App = () => {
       supernovaState.toggleLasso(val);
     }
   };
+
+  useEffect(() => {
+    resetSupernovaState();
+  }, [dims, resetSupernovaState]);
 
   return (
     <NavigationContainer>
