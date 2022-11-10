@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/qlik-oss/carboncopy/compare/v1.1.4...v1.1.5) (2022-11-10)
+
+
+### Bug Fixes
+
+* cancel on rotations ([b9cc2c9](https://github.com/qlik-oss/carboncopy/commit/b9cc2c91467240b6b2f8650bdeb34ec6aabf3ed3))
+
 ## [1.1.4](https://github.com/qlik-oss/carboncopy/compare/v1.1.3...v1.1.4) (2022-10-31)
 
 
